@@ -1,15 +1,13 @@
 package builtins
 
 import (
-	"errors"
+//	"errors"
 	"fmt"
 	"os"
 )
 
 // Define error messages related to argument counts to ensure they are consistent and maintainable.
-var (
-	ErrInvalidArgCount = errors.New("invalid argument count: expected two arguments (source and destination)")
-)
+
 
 // Renamefile handles renaming or moving files and directories. Expects two Arguments.
 // args[0]: the current name or path of the file/directory
