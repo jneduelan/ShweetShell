@@ -11,7 +11,7 @@ import (
 
 	"github.com/jneduelan/ShweetShell/Project2/builtins"
 )
-
+// Initialize the main application
 func main() {
 	exit := make(chan struct{}, 2) // buffer this so there's no deadlock.
 	runLoop(os.Stdin, os.Stdout, os.Stderr, exit)
