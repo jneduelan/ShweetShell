@@ -1,6 +1,24 @@
 # Project 2: Shell Builtins
 
+#Jaylen Neduelan
 ## Description
+
+his project involves extending a simple shell by adding five shell builtins or shell-adjacent commands, rewritten in Go and integrated into the existing Go shell. The shell supports a variety of builtin commands from shells such as `sh`, `bash`, `csh`, `tcsh`, `ksh`, and `zsh`.
+
+### Builtins Already Implemented
+- `cd`
+- `env`
+
+### Additional Resources
+- [Bourne Shell Builtins](https://www.gnu.org/software/bash/manual/html_node/Bourne-Shell-Builtins.html)
+- [Bash Builtins](https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html)
+- [Built-in csh and tcsh Commands](https://docstore.mik.ua/orelly/linux/lnut/ch08_09.htm)
+
+## Getting Started
+
+### Prerequisites
+Ensure you have Go installed on your system (visit [Go's official site](https://golang.org/dl/) for download instructions). This project uses Go modules, so no additional GOPATH configuration is needed.
+
 
 For this project we'll be adding commands to a simple shell. 
 
@@ -18,20 +36,4 @@ As an example, two shell builtins have already been added to the package builtin
 - `cd`
 - `env`
 
-## Steps
 
-1. Clone down the example input/output and skeleton `main.go`:
-
-    `git clone https://github.com/jh125486/CSCE4600`
- 
-2. Copy the `Project2` files to your own git project.
-
-    1. In your `go.mod`, replace "jh125486" in the module line with your GitHub name, e.g.:
-
-      - "module github.com/jh125486/CSCE4600" changes to "module github.com/CoolStudent123/CSCE4600"
-  
-    2. In the `main.go`, replace "jh125486" in the imports with your package path, e.g.:
-
-      - "github.com/jh125486/CSCE4600/Project2/builtins" changes to "github.com/CoolStudent123/CSCE4600/Project2/builtins"
-
-3. Start editing the `main.go` command switch (lines 57-64) and the package `builtins` with your chosen commands.
