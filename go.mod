@@ -1,6 +1,6 @@
 module github.com/jneduelan/ShweetShell
 
-go 1.22
+go 1.22.1
 
 require (
 	github.com/google/go-cmp v0.6.0
